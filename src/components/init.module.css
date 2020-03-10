@@ -1,0 +1,25 @@
+.block {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.text {
+    color: #fff;
+    font-size: 18px;
+}
+
+.button {
+    background: red;
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 40px auto 0;
+}
+
+.counter {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}

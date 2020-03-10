@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    background: none;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    outline: none;
+}
+
+html
+, body {
+    height: 100%;
+}
+
+body {
+    font: 400 14px lato, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+#general {
+    background-color: #000;
+    min-height: 100%;
+    position: relative;
+}
+
+main {
+    padding-top: 50px;
+}
