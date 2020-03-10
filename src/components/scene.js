@@ -33,13 +33,11 @@ class Car extends React.Component {
         }
 
         document.addEventListener('keydown', function(e) {
-            console.log(e.keyCode);
-
-            if (e.keyCode == 65) {
+            if (e.keyCode == 65 || e.keyCode == 37) {
                 actions.moveLeft();
-            } else if (e.keyCode == 68) {
+            } else if (e.keyCode == 68 || e.keyCode == 39) {
                 actions.moveRight();
-            } else if (e.keyCode == 83) {
+            } else if (e.keyCode == 83 || e.keyCode == 40) {
                 actions.moveCenter();
             }
         }); 
