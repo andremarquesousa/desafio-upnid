@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.068397ca.chunk.css",
+    "main.js": "/static/js/main.7595e272.chunk.js",
+    "main.js.map": "/static/js/main.7595e272.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ab900423.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ab900423.js.map",
+    "static/js/2.a58bbe27.chunk.js": "/static/js/2.a58bbe27.chunk.js",
+    "static/js/2.a58bbe27.chunk.js.map": "/static/js/2.a58bbe27.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.23fd61589f52ba61470f53357bd2b599.js": "/precache-manifest.23fd61589f52ba61470f53357bd2b599.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.068397ca.chunk.css.map": "/static/css/main.068397ca.chunk.css.map",
+    "static/js/2.a58bbe27.chunk.js.LICENSE.txt": "/static/js/2.a58bbe27.chunk.js.LICENSE.txt",
+    "static/media/game.module.css": "/static/media/car.56be0a4e.png",
+    "static/media/scene.module.css": "/static/media/scene.d0d2cd17.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab900423.js",
+    "static/js/2.a58bbe27.chunk.js",
+    "static/css/main.068397ca.chunk.css",
+    "static/js/main.7595e272.chunk.js"
+  ]
+}
