@@ -32,11 +32,6 @@ class Car extends React.Component {
             }
         }
 
-        const canvas = document.getElementById('myCanvas');
-        const ctx = canvas.getContext("2d");
-        ctx.fillStyle = "#FF0000";
-        ctx.fillRect(0, 0, 150, 75);
-
         document.addEventListener('keydown', function(e) {
             if (e.keyCode === 65 || e.keyCode === 37) {
                 actions.moveLeft();
@@ -53,7 +48,6 @@ class Car extends React.Component {
 
         return (
             <div className={styles.scene}>
-                <canvas className={styles.myCanvas} id="myCanvas"></canvas>
                 <div className={styles.car}></div>
                 <p className={styles.player}>{player}</p>
             </div>
