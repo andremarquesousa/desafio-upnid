@@ -19,3 +19,12 @@
     margin: 0 auto;
     transition: transform 0.1s;
 }
+
+.player {
+    color: #fff;
+    font-size: 48px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 2;
+}
